@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpaDomacaZadaca02", "SpaDomacaZadaca02\SpaDomacaZadaca02.vcxproj", "{27E5E2CC-0412-4F77-917C-6285F9D6F224}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3974A139-0CB0-470F-B906-F75E7FE55505}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

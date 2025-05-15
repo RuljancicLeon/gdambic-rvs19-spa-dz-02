@@ -1,23 +1,20 @@
-#include <SFML/Graphics.hpp>
+#include <iostream>
+#include "Game.h"
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(800, 600), "Hello, SFML world!");
-	window.setFramerateLimit(60);
-	//Cvijet cvijet(&window);
+	Game game;
+	
 
-	while (window.isOpen())
+	while (game.getWindowIsOpen())
 	{
-		sf::Event event;
-		while (window.pollEvent(event))
-		{
-			if (event.type == sf::Event::Closed)
-				window.close();
-		}
+		
+		//Update
+		game.Update();
 
-		window.clear();
-		//cvijet.draw();
-		window.display();
+
+		//Render
+		game.Render();
 	}
 
 	return 0;
